@@ -196,7 +196,7 @@ label= "FUN"                               ;
 label= "NAV"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃   PG_UP   ┃   HOME    ┃    UP     ┃    END    ┃    INS    ┃   ┃           ┃           ┃           ┃           ┃           ┃
+//             ┃   PG_UP   ┃   HOME    ┃    UP     ┃    END    ┃    INS    ┃   ┃           ┃  Mouse Up ┃           ┃           ┃           ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃   PG_DN   ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃   CAPS    ┃   ┃           ┃   SHIFT   ┃   CTRL    ┃    ALT    ┃    GUI    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
@@ -205,11 +205,11 @@ label= "NAV"                               ;
 //                                     ┃           ┃           ┃           ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
+// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷   내가커스텀함    ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp INS         &trans      &trans      &trans      &trans      &trans
-                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &trans      &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
-    &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &trans      &trans      &trans      &trans      &trans      &trans
+                &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp INS         &trans      &mkp MOUSE_UP      &trans      &trans      &trans
+                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &mkp MOUSE_LEFT &mkp MOUSE_DOWN &mkp MOUSE_RIGHT &mkp MOUSE_MIDDLE &trans
+    &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &trans      &mkwh MOUSE_WHEEL_UP &mkwh MOUSE_WHEEL_DOWN &trans &trans
                                         &trans      &trans      &trans          &trans      &trans      &trans
                         >;
                 };
