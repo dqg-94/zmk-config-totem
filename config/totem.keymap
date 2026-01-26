@@ -209,8 +209,8 @@ label= "NAV"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp INS         &trans      &mkp MOUSE_UP      &trans      &trans      &trans
-                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &mkp MOUSE_LEFT &mkp MOUSE_DOWN &mkp MOUSE_RIGHT &mkp MOUSE_MIDDLE &trans
-    &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &trans      &mkwh MOUSE_WHEEL_UP &mkwh MOUSE_WHEEL_DOWN &trans &trans
+                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &mkp MOUSE_LEFT &mkp MOUSE_DOWN &mkp MOUSE_RIGHT &trans &trans
+    &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &trans      &trans      &trans        &trans      &trans &trans 
                                         &trans      &mkp BTN1   &mkp BTN2       &trans      &trans      &trans
                         >;
                 };
