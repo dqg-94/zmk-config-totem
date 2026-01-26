@@ -29,7 +29,12 @@
   flavor = "tap-preferred";
   tapping-term-ms = <170>;
 };
-
+/ {
+    mouse {
+        compatible = "zmk,mouse";
+        label = "Mouse";
+    };
+};
 / {
     behaviors {
         // Home row mods - Left
