@@ -30,12 +30,6 @@
   tapping-term-ms = <170>;
 };
 / {
-    mouse {
-        compatible = "zmk,mouse";
-        label = "Mouse";
-    };
-};
-/ {
     behaviors {
         // Home row mods - Left
         hm_l: homerow_mods_left {
@@ -213,8 +207,8 @@ label= "NAV"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp INS         &trans      &mkp MOVE_UP      &trans      &trans      &trans
-                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &mkp MOVE_LEFT &mkp MOVE_DOWN &mkp MOVE_RIGHT &trans &trans
+                &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp INS         &trans      &mmv MOVE_UP      &trans      &trans      &trans
+                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans &trans
     &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &trans      &trans      &trans      &trans      &trans      &trans
                                         &trans      &mkp BTN1   &mkp BTN2       &trans      &trans      &trans
                         >;
