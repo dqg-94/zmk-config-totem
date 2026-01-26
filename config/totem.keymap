@@ -208,9 +208,9 @@ label= "NAV"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp INS         &trans      &trans      &trans      &trans      &trans
-                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &trans      &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
-    &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &trans      &trans      &trans      &trans      &trans      &trans
-                                        &trans      &trans      &trans          &trans      &trans      &trans
+                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &msc SCRL_UP      &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
+    &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &msc SCRL_DOWN      &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP      &mmv MOVE_RIGHT      &trans
+                                        &mkp MCLK      &mkp MB1      &mkp MB2          &trans      &trans      &trans
                         >;
                 };
 
