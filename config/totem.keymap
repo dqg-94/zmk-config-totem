@@ -109,7 +109,7 @@ label= "BASE"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
-                &hm_l LGUI A &hm_l LALT S &hm_l LCTRL D &hm_l LSHFT F &kp G     &kp H    &hm_r RSHFT J &hm_r RCTRL K &hm_r RALT L &hm_r RGUI SEMI
+                &hm_l LGUI A &hm_l LALT S &hm_l LCTRL D &hm_l LSHFT F &kp G     &kp H    &hm_r LSHFT J &hm_r LCTRL K &hm_r LALT L &hm_r LGUI SEMI
     &trans      &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &trans
                                     &lt_spc NUM ESC &lt_spc SYM SPACE &lt_spc FUN TAB     &lt_spc NAV RET &lt_spc NUM BSPC &lt_spc SYM DEL
                         >;
@@ -134,7 +134,7 @@ label= "NUM"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp LBKT    &kp N7      &kp N8      &kp N9      &kp RBKT        &trans      &trans      &trans      &trans      &trans
-                &kp SQT     &kp N4      &kp N5      &kp N6      &kp EQUAL       &trans      &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
+                &kp SQT     &kp N4      &kp N5      &kp N6      &kp EQUAL       &trans      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
     &trans      &kp GRAVE   &kp N1      &kp N2      &kp N3      &kp BSLH        &trans      &trans      &trans      &trans      &trans      &trans
                                         &kp DOT     &kp N0      &kp MINUS       &trans      &trans      &trans
                         >;
@@ -159,7 +159,7 @@ label= "SYM"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp LBRC    &kp AMPS    &kp STAR    &kp LPAR    &kp RBRC        &trans      &trans      &trans      &trans      &trans
-                &kp DQT     &kp DLLR    &kp PRCNT   &kp CARET   &kp PLUS        &trans      &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
+                &kp DQT     &kp DLLR    &kp PRCNT   &kp CARET   &kp PLUS        &trans      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
     &trans      &kp TILDE   &kp EXCL    &kp AT      &kp HASH    &kp PIPE        &trans      &trans      &trans      &trans      &trans      &mo ADJ
                                         &kp LPAR    &kp RPAR    &kp UNDER       &trans      &trans      &trans
                         >;
@@ -184,7 +184,7 @@ label= "FUN"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp F12     &kp F7      &kp F8      &kp F9      &kp PSCRN       &trans      &trans      &trans      &trans      &trans
-                &kp F11     &kp F4      &kp F5      &kp F6      &kp SLCK        &trans      &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
+                &kp F11     &kp F4      &kp F5      &kp F6      &kp SLCK        &trans      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
     &trans      &kp F10     &kp F1      &kp F2      &kp F3      &kp PAUSE_BREAK &trans      &trans      &trans      &trans      &trans      &trans
                                         &trans      &kp K_APP   &trans          &kp C_MUTE  &kp C_PP    &trans
                         >;
@@ -208,9 +208,9 @@ label= "NAV"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp INS         &trans      &trans      &trans      &trans      &trans
-                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &msc SCRL_UP      &kp RSHFT   &kp RCTRL   &kp RALT    &kp RGUI
-    &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &msc SCRL_DOWN      &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP      &mmv MOVE_RIGHT      &trans
+                &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp INS         &msc SCRL_UP      &trans      &trans      &trans      &trans
+                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp CAPS        &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
+    &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP      &mmv MOVE_RIGHT      &trans   &trans
                                         &mkp MCLK      &mkp MB1      &mkp MB2          &trans      &trans      &trans
                         >;
                 };
