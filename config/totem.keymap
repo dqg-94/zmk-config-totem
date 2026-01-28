@@ -111,7 +111,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &hm_l LGUI A &hm_l LALT S &hm_l LCTRL D &hm_l LSHFT F &kp G     &kp H    &hm_r LSHFT J &hm_r LCTRL K &hm_r LALT L &hm_r LGUI SEMI
     &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
-                                    &lt_spc NUM ESC &lt_spc SYM SPACE &lt_spc FUN TAB     &lt_spc NAV RET &lt_spc NUM BSPC &lt_spc SYM DEL
+                                    &lt_spc NUM ESC &lt_spc NAV SPACE &lt_spc FUN TAB     &lt_spc NAV RET &lt_spc NUM BSPC &lt_spc SYM DEL
                         >;
                 };
 
@@ -210,7 +210,7 @@ label= "NAV"                               ;
 
                 &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp INS         &msc SCRL_UP      &trans      &trans      &trans      &trans
                 &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &trans          &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
-    &kp CAPS    &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP      &mmv MOVE_RIGHT      &trans   &trans
+    &kp BSPC    &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP      &mmv MOVE_RIGHT      &trans   &kp CAPS
                                         &mkp MCLK      &mkp MB1      &mkp MB2          &trans      &trans      &trans
                         >;
                 };
