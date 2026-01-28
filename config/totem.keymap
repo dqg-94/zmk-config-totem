@@ -110,7 +110,7 @@ label= "BASE"                              ;
 
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &hm_l LGUI A &hm_l LALT S &hm_l LCTRL D &hm_l LSHFT F &kp G     &kp H    &hm_r LSHFT J &hm_r LCTRL K &hm_r LALT L &hm_r LGUI SEMI
-    &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
+    &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp LANG1
                                     &lt_spc NUM ESC &lt_spc NAV SPACE &lt_spc FUN TAB     &lt_spc NAV RET &lt_spc NUM BSPC &lt_spc SYM DEL
                         >;
                 };
