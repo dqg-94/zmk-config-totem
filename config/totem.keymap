@@ -274,7 +274,7 @@ label= "MOUSE"                               ;
 
                 &kp PG_UP   &kp HOME     &mmv MOVE_UP     &kp END     &kp INS         &msc SCRL_UP      &trans      &trans      &trans      &trans
                 &kp PG_DN   &mmv MOVE_LEFT    &mmv MOVE_DOWN     &mmv MOVE_RIGHT    &trans          &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
-    &kp F17     &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP      &mmv MOVE_RIGHT      &trans   &kp CAPS
+    &kp F17     &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &trans      &trans      &trans      &trans      &trans   &kp CAPS
                                         &to BASE      &mkp MB1      &mkp MB2    &to BASE      &trans      &trans
                         >;
                 };
