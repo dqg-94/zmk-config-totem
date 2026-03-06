@@ -272,7 +272,7 @@ label= "MOUSE"                               ;
 
                 &kp PG_UP   &kp HOME     &mmv MOVE_UP     &kp END     &kp INS         &msc SCRL_UP      &trans      &trans      &trans      &trans
                 &kp PG_DN   &mmv MOVE_LEFT    &mmv MOVE_DOWN     &mmv MOVE_RIGHT    &trans          &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
-    &kp F17     &trans      &trans       &trans   &kp LA(LEFT)   &kp LC(RIGHT)       &trans      &trans      &trans      &trans      &trans   &kp CAPS
+    &kp F17     &trans      &trans       &trans   &kp LA(RIGHT)   &kp LA(LEFT)       &trans      &trans      &trans      &trans      &trans   &kp CAPS
                                         &to BASE      &mkp MB1      &mkp MB2    &to BASE      &trans      &trans
                         >;
                 };
