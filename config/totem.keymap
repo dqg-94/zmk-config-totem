@@ -87,18 +87,17 @@
             bindings = <&kp LANG1>;
         };
 
-        // NAV 토글 (J + K) ← 추가
-            combo_nav_tog {
-                timeout-ms = <50>;
-                key-positions = <16 17>;
-                bindings = <&tog NAV>;
-            };
+        combo_nav_tog {
+            timeout-ms = <50>;
+            key-positions = <28 29>;
+            bindings = <&tog NAV>;
+        };
 
-          combo_mouse_tog {
-              timeout-ms = <50>;
-              key-positions = <27 28>;
-              bindings = <&tog MOUSE>;
-          };
+        combo_mouse_tog {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&tog MOUSE>;
+        };
     };
 
     keymap {
