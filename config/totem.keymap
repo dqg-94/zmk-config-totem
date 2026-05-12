@@ -25,10 +25,10 @@
 #define MOUSE 6
 
 &mt {
-  quick-tap-ms = <100>;
+  quick-tap-ms = <190>;
   global-quick-tap;
   flavor = "tap-preferred";
-  tapping-term-ms = <170>;
+  tapping-term-ms = <195>;
 };
 
 / {
