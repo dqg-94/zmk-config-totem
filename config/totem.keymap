@@ -220,8 +220,8 @@ label= "NAV"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp PG_UP   &kp HOME    &kp UP      &kp END     &to MOUSE       &msc SCRL_UP      &trans      &trans      &trans      &trans
-                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &trans          &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
-    &kp BSPC    &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &kp LC(Y)       &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP      &mmv MOVE_RIGHT      &trans   &kp CAPS
+                &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &mkp MB4        &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
+    &kp BSPC    &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &mkp MB5        &mmv MOVE_LEFT      &mmv MOVE_DOWN      &mmv MOVE_UP      &mmv MOVE_RIGHT      &trans   &kp CAPS
                                         &to BASE  &mkp MB1      &mkp MB2      &to BASE      &trans      &trans
                         >;
                 };
@@ -259,9 +259,9 @@ label= "MOUSE"                               ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃   PG_UP   ┃   HOME    ┃    UP     ┃    END    ┃    INS    ┃   ┃  SCRL_UP  ┃           ┃           ┃           ┃           ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃   PG_DN   ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃   CAPS    ┃   ┃  SCRL_DW  ┃   SHIFT   ┃   CTRL    ┃    ALT    ┃    GUI    ┃
+//             ┃   PG_DN   ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃   PREV    ┃   ┃  SCRL_DW  ┃   SHIFT   ┃   CTRL    ┃    ALT    ┃    GUI    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃   BSPC    ┃   UNDO    ┃   Prev    ┃   COPY    ┃   PASTE   ┃   Next    ┃   ┃  MOUS_LF  ┃  MOUS_DW  ┃  MOUS_UP  ┃  MOUS_RT  ┃           ┃    CAPS   ┃
+// ┃   BSPC    ┃           ┃           ┃   COPY    ┃   PASTE   ┃   Next    ┃   ┃  MOUS_LF  ┃  MOUS_DW  ┃  MOUS_UP  ┃  MOUS_RT  ┃           ┃    CAPS   ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃   MOUS_H  ┃  MOUS_LK  ┃  MOUS_RK  ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -269,8 +269,8 @@ label= "MOUSE"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp PG_UP   &kp HOME     &mmv MOVE_UP     &kp END     &to NAV         &msc SCRL_UP      &trans      &trans      &trans      &trans
-                &kp PG_DN   &mmv MOVE_LEFT    &mmv MOVE_DOWN     &mmv MOVE_RIGHT    &trans          &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
-    &kp F17     &trans      &mkp MB4  &kp LC(C)   &kp LC(V)   &mkp MB5       &trans      &trans      &trans      &trans      &trans   &kp CAPS
+                &kp PG_DN   &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT    &mkp MB4          &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
+    &kp F17     &kp LC(Z)   &kp LC(X)    &kp LC(C)   &kp LC(V)   &mkp MB5       &trans      &trans      &trans      &trans      &trans   &kp CAPS
                                         &to BASE      &mkp MB1      &mkp MB2    &to BASE      &trans      &trans
                         >;
                 };
