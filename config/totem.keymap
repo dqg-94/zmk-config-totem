@@ -257,9 +257,9 @@ label= "ADJ"                               ;
 label= "MOUSE"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃   PG_UP   ┃   HOME    ┃    UP     ┃    END    ┃    INS    ┃   ┃  SCRL_UP  ┃           ┃           ┃           ┃           ┃
+//             ┃  SCRL_UP  ┃   HOME    ┃    UP     ┃    END    ┃    INS    ┃   ┃           ┃           ┃           ┃           ┃           ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃   PG_DN   ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃   PREV    ┃   ┃  SCRL_DW  ┃   SHIFT   ┃   CTRL    ┃    ALT    ┃    GUI    ┃
+//             ┃  SCRL_DW  ┃   LEFT    ┃   DOWN    ┃   RIGHT   ┃   PREV    ┃   ┃  SCRL_DW  ┃   SHIFT   ┃   CTRL    ┃    ALT    ┃    GUI    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃   BSPC    ┃           ┃           ┃   COPY    ┃   PASTE   ┃   Next    ┃   ┃  MOUS_LF  ┃  MOUS_DW  ┃  MOUS_UP  ┃  MOUS_RT  ┃           ┃    CAPS   ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -268,8 +268,8 @@ label= "MOUSE"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp PG_UP   &kp HOME     &mmv MOVE_UP     &kp END     &to NAV         &msc SCRL_UP      &trans      &trans      &trans      &kp F18
-                &kp PG_DN   &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT    &mkp MB4          &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
+               &msc SCRL_UP    &kp HOME     &mmv MOVE_UP     &kp END     &to NAV         &msc SCRL_UP      &trans      &trans      &trans      &kp F18
+               &msc SCRL_DOWN  &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT    &mkp MB4          &msc SCRL_DOWN      &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI
     &kp F17     &kp LC(Z)   &kp LC(X)    &kp LC(C)   &kp LC(V)   &mkp MB5       &trans      &trans      &trans      &trans      &trans   &kp CAPS
                                         &to BASE      &mkp MB1      &mkp MB2    &to BASE      &trans      &trans
                         >;
