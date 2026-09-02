@@ -88,7 +88,7 @@
         combo_nav_tog {
             timeout-ms = <50>;
             key-positions = <28 29>;
-            bindings = <&to NAV>;
+            bindings = <&mo MOUSE>;
         };
 
         combo_mouse_tog {
